@@ -1,0 +1,5 @@
+# km > lwc > reff_not_used; dH1*lwc1 = (1/9) * dH2 * lwc2 -> tau1/tau2 = 10%/90%
+100.0   0.0  0.0
+  2.0   1.0  1.0 
+  0.0 441.0  1.0 # lwc must be > 0.0
+

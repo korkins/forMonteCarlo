@@ -1,0 +1,18 @@
+  atmosphere_file two_layers.dat
+  rte_solver montecarlo            # Radiative transfer equation solver MYSTIC
+  mc_vroom on
+  mc_polarisation
+  mc_std
+  mol_abs_param crs
+  phi0 0.0
+  zout 100.0
+  pressure 1013.25
+  rayleigh_depol 0.0
+  earth_radius 6370
+  output_quantity transmittance
+  no_absorption mol
+  wc_file 1D aerosol.dat
+  mc_photons 100
+
+  #mc_spherical 1D                  # sphere
+  albedo 0.0
